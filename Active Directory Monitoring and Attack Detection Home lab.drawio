@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2024-04-13T13:27:51.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Kz2G7jfcIVy-k5dGjQRF" version="24.2.5" type="github">
+  <diagram name="Page-1" id="HP8PaCISCQ1MRwEN2Dkr">
+    <mxGraphModel dx="1434" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="USCKVF3GeLTQIj4rQniW-3" value="&lt;b style=&quot;text-align: justify; text-wrap: wrap;&quot;&gt;Splunk Server: 192.16.10.10&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="87" y="513" width="41.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-4" target="USCKVF3GeLTQIj4rQniW-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-4" value="&lt;div style=&quot;text-wrap: wrap; text-align: justify;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap; text-align: justify;&quot;&gt;&lt;b&gt;ActiveDirectory:192.16.10.7&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Splunk universal forwarder&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sysmon&lt;/b&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="87" y="754" width="41.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-5" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Kali linux&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;IP: 192.16.10.250&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.monitor;" parent="1" vertex="1">
+          <mxGeometry x="470" y="655" width="52.92" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-6" value="&lt;b&gt;&lt;font color=&quot;#121212&quot;&gt;Windows 10&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#121212&quot;&gt;IP: DHCP&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#121212&quot;&gt;Splunk Universal Forwarder&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#121212&quot;&gt;Sysmon&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#121212&quot;&gt;Atomic red Team&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#E6E6E6;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.monitor;" parent="1" vertex="1">
+          <mxGeometry x="280" y="735" width="52.92" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-7" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
+          <mxGeometry x="367" y="657" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-8" target="USCKVF3GeLTQIj4rQniW-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-8" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
+          <mxGeometry x="365" y="547" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-9" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="344.54" y="422" width="88.92" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=0.756;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-6" target="USCKVF3GeLTQIj4rQniW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.548;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-5" target="USCKVF3GeLTQIj4rQniW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-4" target="USCKVF3GeLTQIj4rQniW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-3" target="USCKVF3GeLTQIj4rQniW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.576;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-7" target="USCKVF3GeLTQIj4rQniW-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-17" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Domain: MyDFIR&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;Network: 192.168.10.0/24&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;Splunk Server: 192.16.10.10&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;Active Directory: 192.16.10.7&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;Attacker: 192.16.10.250&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="83" y="373" width="245" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="USCKVF3GeLTQIj4rQniW-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00CC00;shadow=1;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;" parent="1" source="USCKVF3GeLTQIj4rQniW-6" target="USCKVF3GeLTQIj4rQniW-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

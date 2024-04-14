@@ -34,6 +34,7 @@ I skipped the AD domain and server installations
 
 ![2](https://github.com/kelubia/Active-Directory-Monitoring-and-Attack-Detection-Home-lab/assets/98921903/ce1919f6-ed30-4153-ae7d-f91ce14bada3)
 
+One way to gain a deeper understanding of software performance and behavior is by utilizing Splunk. With this tool, you can capture, generate, and export telemetry data to observability tools, allowing for a more comprehensive analysis. Additionally, it's important to continuously monitor your AD infrastructure using various monitoring tools and techniques. This will enable you to detect potential security threats and anomalies early on, helping to keep your systems safe and secure.
 Now install our Splunk server.
 ![3](https://github.com/kelubia/Active-Directory-Monitoring-and-Attack-Detection-Home-lab/assets/98921903/fc16d0b3-3ce1-401c-8153-1b1b3911a019)
 ![4](https://github.com/kelubia/Active-Directory-Monitoring-and-Attack-Detection-Home-lab/assets/98921903/244f3ae8-604d-47ad-ab19-0b44837fc0b6)
@@ -77,5 +78,6 @@ source = XmlWinEventLog:Microsoft-Windows-Sysmon/Operational
 
 ![14](https://github.com/kelubia/Active-Directory-Monitoring-and-Attack-Detection-Home-lab/assets/98921903/37842ec1-a7fe-4826-9cfb-a6e0ce881a13)
 ![15](https://github.com/kelubia/Active-Directory-Monitoring-and-Attack-Detection-Home-lab/assets/98921903/509579cb-a7a4-4af5-ae02-bbc4fdc13161)
-I ran into an issue of simutaniously running Splunk server and windows target machine togetheron my PC. 
+I ran into an issue of simultaneously running the Splunk server and Windows target machine together on my PC.
+sooo on to the cloud we go..... ( not ready to buy a new pc meow)
 
